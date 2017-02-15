@@ -1,0 +1,123 @@
+@import "variables.less";
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #c7dfe2;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	margin-bottom: 60px !important;
+}
+
+p {
+	font-size: @basefontsize;
+}
+
+h1 {
+	font-size: @basefontsize+40;
+	color: @fontcolor;
+	text-align: @alignfont;
+	font-family: Pompadur, 'Comic Sans MS', cursive;
+	margin: 0;
+}
+
+.glav {
+	font-size: @basefontsize+4;
+	color: @fontcolor;
+	text-align: justify;
+	padding-right: @LRpadding;
+	padding-left: @LRpadding;
+}
+
+.regi {
+	background-color: @basecolor;
+	width: @buttonwidth;
+	height: @buttonheight; 
+	border-radius: @borderRad;
+	margin-top: auto;
+	margin-bottom: auto;
+	border: 1px solid @fontcolor;
+}
+
+.footer {
+    background-color: @basecolor;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.main {
+	background: url(../images/fon.png) no-repeat 50% 100%;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.main-header{
+	background: url(../images/fon.png) no-repeat 50% 0%;
+	background-size: cover;
+	height: 200px !important;
+}
+
+.content-m{
+	text-indent: 30px;
+	text-align: justify;
+	padding: 20px 40px;
+	p {
+		font-weight:bold;
+	}
+}
+
+.otmena {
+	background-color: silver;
+	width: @buttonwidth;
+	height: @buttonheight; 
+	border-radius: @borderRad;
+	margin-top: auto;
+	margin-bottom: auto;
+	border: 1px solid @fontcolor;
+}
+
+.btn-m{
+	margin: 0 20px;
+}
+.btn-m:hover {
+	.regi;
+}
+
+label {
+	text-align: left !important;
+}
+
+input {
+	border-radius: @borderRad !important;
+}
+
+select {
+	border-radius: @borderRad !important;
+}
+
+form {
+	padding: 20px 20px 0 20px;
+}
+
+.left {
+	font-size: @basefontsize -5;
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+	font-size: @basefontsize -5;
+}
+
+.center {
+	text-align: center;
+}
+
+.pad {
+	padding: 36px 0px;
+}
